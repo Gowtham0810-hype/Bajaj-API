@@ -6,10 +6,10 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 
-FULL_NAME = "john_doe"
-DATE_OF_BIRTH = "17091999" # ddmmyyyy format
-EMAIL = "john@xyz.com"
-ROLL_NUMBER = "ABCD123"
+FULL_NAME = "Gowtham Santhanam"
+DATE_OF_BIRTH = "08.20.2004" # ddmmyyyy format
+EMAIL = "adamgoya0810@gmail.com"
+ROLL_NUMBER = "22bce5246"
 
 @app.route('/bfhl', methods=['POST'])
 def process_data():
